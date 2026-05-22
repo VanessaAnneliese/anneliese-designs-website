@@ -79,8 +79,7 @@ export default function TermsPage() {
           <address className="not-italic" style={{ color: "#555" }}>
             Anneliese Designs<br />
             23 Corridale Ave., Whitby, ON, L1M 2E8, Canada<br />
-            <a href="mailto:contact@anneliesedesigns.com">contact@anneliesedesigns.com</a><br />
-            (905) 409-1770
+            <a href="mailto:contact@anneliesedesigns.com">contact@anneliesedesigns.com</a>
           </address>
         </Section>
       </main>

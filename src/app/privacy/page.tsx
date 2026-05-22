@@ -21,7 +21,7 @@ export default function PrivacyPage() {
 
         <Section title="1. Who We Are">
           <p>Anneliese Designs is a creative design and branding studio operated by Vanessa Witkowski, located in Whitby, Ontario, Canada. We are subject to Canada&rsquo;s federal <em>Personal Information Protection and Electronic Documents Act</em> (PIPEDA) and applicable Ontario privacy legislation.</p>
-          <p className="mt-3">Contact: <a href="mailto:contact@anneliesedesigns.com">contact@anneliesedesigns.com</a> &middot; (905) 409-1770</p>
+          <p className="mt-3">Contact: <a href="mailto:contact@anneliesedesigns.com">contact@anneliesedesigns.com</a></p>
         </Section>
 
         <Section title="2. Information We Collect">
@@ -84,8 +84,7 @@ export default function PrivacyPage() {
           <address className="mt-3 not-italic" style={{ color: "#555" }}>
             Anneliese Designs<br />
             23 Corridale Ave., Whitby, ON, L1M 2E8, Canada<br />
-            <a href="mailto:contact@anneliesedesigns.com">contact@anneliesedesigns.com</a><br />
-            (905) 409-1770
+            <a href="mailto:contact@anneliesedesigns.com">contact@anneliesedesigns.com</a>
           </address>
         </Section>
       </main>

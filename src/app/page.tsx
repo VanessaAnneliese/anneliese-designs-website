@@ -21,7 +21,7 @@ export default function Home() {
 
         {/* Hero */}
         <section className="py-12">
-          <h1 className="text-2xl leading-relaxed font-normal" style={{ fontFamily: "var(--font-cormorant)", color: "#1a1a1a" }}>
+          <h1 className="text-2xl leading-relaxed font-normal" style={{ fontFamily: "var(--font-cambo)", color: "#1a1a1a" }}>
             Welcome to Anneliese Designs,
           </h1>
           <p className="mt-3 text-lg leading-relaxed" style={{ color: "#444" }}>
@@ -35,7 +35,7 @@ export default function Home() {
         {/* Who am I */}
         <IllustrationDivider src="/images/icon-1.png" alt="Colorful creative city illustration" />
         <section className="py-10">
-          <h2 className="text-xl font-bold mb-5" style={{ fontFamily: "var(--font-cormorant)", color: "#1a1a1a" }}>
+          <h2 className="text-xl font-bold mb-5" style={{ fontFamily: "var(--font-cambo)", color: "#1a1a1a" }}>
             Who am I?
           </h2>
           <p className="text-base leading-relaxed" style={{ color: "#444" }}>
@@ -48,7 +48,7 @@ export default function Home() {
         {/* Philosophy */}
         <IllustrationDivider src="/images/icon-2.png" alt="Meditating figure illustration" />
         <section className="py-10">
-          <h2 className="text-xl font-bold mb-5" style={{ fontFamily: "var(--font-cormorant)", color: "#1a1a1a" }}>
+          <h2 className="text-xl font-bold mb-5" style={{ fontFamily: "var(--font-cambo)", color: "#1a1a1a" }}>
             My philosophy
           </h2>
           <p className="text-base leading-relaxed" style={{ color: "#444" }}>
@@ -75,7 +75,7 @@ export default function Home() {
         {/* Skills */}
         <IllustrationDivider src="/images/pencil.png" alt="Colorful lightbulb illustration" />
         <section className="py-10">
-          <h2 className="text-xl font-bold mb-5" style={{ fontFamily: "var(--font-cormorant)", color: "#1a1a1a" }}>
+          <h2 className="text-xl font-bold mb-5" style={{ fontFamily: "var(--font-cambo)", color: "#1a1a1a" }}>
             My skills?
           </h2>
           <p className="text-base leading-relaxed" style={{ color: "#444" }}>
@@ -88,7 +88,7 @@ export default function Home() {
         {/* Exciting part */}
         <IllustrationDivider src="/images/banner.png" alt="Colorful creative city illustration" />
         <section className="py-10">
-          <h2 className="text-xl font-bold mb-5" style={{ fontFamily: "var(--font-cormorant)", color: "#1a1a1a" }}>
+          <h2 className="text-xl font-bold mb-5" style={{ fontFamily: "var(--font-cambo)", color: "#1a1a1a" }}>
             Here&rsquo;s the exciting part:
           </h2>
           <p className="text-base leading-relaxed" style={{ color: "#444" }}>

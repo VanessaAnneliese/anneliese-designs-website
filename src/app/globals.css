@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --font-body: var(--font-cormorant), Georgia, serif;
-  --font-heading: var(--font-cormorant), Georgia, serif;
+  --font-body: var(--font-cambo), Georgia, serif;
+  --font-heading: var(--font-cambo), Georgia, serif;
   --color-text: #1a1a1a;
   --color-text-secondary: #555555;
   --color-red: #a61c1c;
@@ -11,12 +11,14 @@
 
 body {
   font-family: var(--font-body);
+  font-weight: 500;
   color: var(--color-text);
   background: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
+  font-weight: 700;
 }
 
 a {

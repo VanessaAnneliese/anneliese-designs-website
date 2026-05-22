@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lato, Arvo, Cormorant_Garamond } from "next/font/google";
+import { Lato, Arvo, Cormorant_Garamond, Cambo } from "next/font/google";
 import "./globals.css";
 
 const lato = Lato({
@@ -20,6 +20,12 @@ const cormorantGaramond = Cormorant_Garamond({
   weight: ["300", "400", "600"],
 });
 
+const cambo = Cambo({
+  variable: "--font-cambo",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
 export const metadata: Metadata = {
   title: "Anneliese Designs",
   description: "Where creativity is fun, full of heart, and always a little inspiring.",
@@ -31,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${lato.variable} ${arvo.variable} ${cormorantGaramond.variable}`}>
+    <html lang="en" className={`${lato.variable} ${arvo.variable} ${cormorantGaramond.variable} ${cambo.variable}`}>
       <body>{children}</body>
     </html>
   );

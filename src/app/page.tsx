@@ -12,7 +12,7 @@ export default function Home() {
           width={90}
           height={90}
         />
-        <p className="mt-3 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: "var(--font-arvo)", color: "#a61c1c" }}>
+        <p className="mt-3 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300, color: "#a61c1c" }}>
           Anneliese Designs
         </p>
       </header>
@@ -118,7 +118,7 @@ export default function Home() {
         {/* Closing logo */}
         <div className="flex flex-col items-center py-12 gap-3">
           <Image src="/images/logo.png" alt="Anneliese Designs" width={100} height={100} />
-          <p className="text-xs tracking-[0.3em] uppercase" style={{ fontFamily: "var(--font-arvo)", color: "#a61c1c" }}>
+          <p className="text-xs tracking-[0.3em] uppercase" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300, color: "#a61c1c" }}>
             Anneliese Designs
           </p>
           <p className="text-sm mt-1" style={{ color: "#888", fontStyle: "italic" }}>

@@ -73,7 +73,7 @@ export default function Home() {
         </section>
 
         {/* Skills */}
-        <IllustrationDivider src="/images/icon-4.png" alt="Colorful creative profile illustration" />
+        <IllustrationDivider src="/images/pencil.png" alt="Colorful lightbulb illustration" />
         <section className="py-10">
           <h2 className="text-xl font-bold mb-5" style={{ fontFamily: "var(--font-arvo)", color: "#1a1a1a" }}>
             My skills?

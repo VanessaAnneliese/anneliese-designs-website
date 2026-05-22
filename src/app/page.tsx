@@ -135,17 +135,17 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row justify-center gap-10 text-sm">
             <div>
-              <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "18px", fontWeight: 700, color: "#fff" }}>Address</p>
+              <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "14px", fontWeight: 700, color: "#fff" }}>Address</p>
               <p>23 Corridale Ave.</p>
               <p>Whitby, ON, L1M 2E8</p>
               <p>Canada</p>
             </div>
             <div>
-              <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "18px", fontWeight: 700, color: "#fff" }}>Availability</p>
+              <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "14px", fontWeight: 700, color: "#fff" }}>Availability</p>
               <p>Currently accepting clients.</p>
             </div>
             <div>
-              <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "18px", fontWeight: 700, color: "#fff" }}>Contact</p>
+              <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "14px", fontWeight: 700, color: "#fff" }}>Contact</p>
               <p>
                 <a href="mailto:contact@anneliesedesigns.com" className="hover:underline" style={{ color: "#ccc" }}>
                   contact@anneliesedesigns.com

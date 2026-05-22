@@ -134,14 +134,6 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-center space-y-8">
 
           <div>
-            <p className="text-base tracking-[0.25em] uppercase font-bold" style={{ fontFamily: "var(--font-cormorant)", color: "#fff" }}>
-              Anneliese Designs
-            </p>
-            <p className="text-sm mt-1" style={{ color: "#aaa", fontStyle: "italic" }}>
-              Creating the world you dream!
-            </p>
-          </div>
-
           <div className="flex flex-col sm:flex-row justify-center gap-10 text-sm">
             <div>
               <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "18px", fontWeight: 700, color: "#fff" }}>Address</p>

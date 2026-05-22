@@ -187,7 +187,7 @@ export default function Home() {
 
 function IllustrationDivider({ src, alt }: { src: string; alt: string }) {
   return (
-    <div className="flex justify-center my-4">
+    <div className="flex justify-center my-1">
       <Image
         src={src}
         alt={alt}

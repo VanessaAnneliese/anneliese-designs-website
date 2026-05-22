@@ -12,7 +12,7 @@ export default function Home() {
           width={90}
           height={90}
         />
-        <p className="mt-3 tracking-[0.15em] uppercase" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300, fontSize: "22px", color: "#000" }}>
+        <p className="mt-3 tracking-[0.15em] uppercase" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300, fontSize: "33px", color: "#000" }}>
           Anneliese Designs
         </p>
       </header>

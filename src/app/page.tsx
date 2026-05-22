@@ -129,7 +129,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="w-full py-12 px-6" style={{ backgroundColor: "#1a1a1a", color: "#ccc" }}>
+      <footer className="w-full py-12 px-6" style={{ backgroundColor: "#1a1a1a", color: "#ccc", fontFamily: "var(--font-lato)", fontWeight: 500 }}>
         <div className="max-w-2xl mx-auto text-center space-y-8">
 
           <div>

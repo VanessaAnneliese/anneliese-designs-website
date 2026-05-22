@@ -138,8 +138,8 @@ export default function Home() {
             <p className="text-sm mb-4" style={{ color: "#ccc" }}>Ready to bring your vision to life?</p>
             <a
               href="mailto:contact@anneliesedesigns.com"
-              className="inline-block px-6 py-2 text-sm font-semibold tracking-wide uppercase"
-              style={{ backgroundColor: "#a61c1c", color: "#fff", fontFamily: "var(--font-lato)", borderRadius: "8px" }}
+              className="inline-block px-8 py-3 tracking-wide uppercase"
+              style={{ backgroundColor: "#a61c1c", color: "#fff", fontFamily: "var(--font-cambo)", fontWeight: 700, fontSize: "16px", borderRadius: "8px" }}
             >
               Let&rsquo;s Work Together
             </a>

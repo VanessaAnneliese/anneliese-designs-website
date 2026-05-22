@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --font-body: var(--font-lato), Helvetica, Arial, Lucida, sans-serif;
-  --font-heading: var(--font-arvo), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-cormorant), Georgia, serif;
+  --font-heading: var(--font-cormorant), Georgia, serif;
   --color-text: #1a1a1a;
   --color-text-secondary: #555555;
   --color-red: #a61c1c;

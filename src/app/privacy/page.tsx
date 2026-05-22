@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "Privacy Policy | Anneliese Designs",
@@ -8,9 +9,12 @@ export const metadata = {
 export default function PrivacyPage() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
-      <header className="w-full pt-8 pb-4 text-center border-b border-gray-100">
-        <Link href="/" className="tracking-[0.15em] uppercase hover:opacity-70" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300, fontSize: "24px", color: "#000", textDecoration: "none" }}>
-          Anneliese Designs
+      <header className="w-full pt-8 pb-4 flex flex-col items-center border-b border-gray-100">
+        <Link href="/" className="flex flex-col items-center hover:opacity-70" style={{ textDecoration: "none" }}>
+          <Image src="/images/logo.png" alt="Anneliese Designs Logo" width={70} height={70} />
+          <p className="mt-2 tracking-[0.25em] uppercase" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300, fontSize: "23px", color: "#000" }}>
+            Anneliese Designs
+          </p>
         </Link>
       </header>
 

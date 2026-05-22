@@ -133,6 +133,18 @@ export default function Home() {
       <footer className="w-full py-12 px-6" style={{ backgroundColor: "#1a1a1a", color: "#ccc", fontFamily: "var(--font-lato)", fontWeight: 500 }}>
         <div className="max-w-2xl mx-auto text-center space-y-8">
 
+          {/* CTA */}
+          <div className="text-center">
+            <p className="text-sm mb-3" style={{ color: "#ccc" }}>Ready to bring your vision to life?</p>
+            <a
+              href="mailto:contact@anneliesedesigns.com"
+              className="inline-block px-6 py-2 text-sm font-semibold tracking-wide uppercase"
+              style={{ backgroundColor: "#a61c1c", color: "#fff", fontFamily: "var(--font-lato)" }}
+            >
+              Let&rsquo;s Work Together
+            </a>
+          </div>
+
           <div className="flex flex-col sm:flex-row justify-center gap-10 text-sm text-left">
             <div>
               <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "14px", fontWeight: 700, color: "#fff" }}>Address</p>

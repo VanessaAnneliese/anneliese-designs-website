@@ -121,7 +121,7 @@ export default function Home() {
           <p className="text-xs tracking-[0.3em] uppercase" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300, color: "#a61c1c" }}>
             Anneliese Designs
           </p>
-          <p className="text-sm mt-1" style={{ color: "#888", fontStyle: "italic" }}>
+          <p className="mt-1" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300, fontStyle: "italic", color: "#888" }}>
             Creating the world you dream!
           </p>
         </div>

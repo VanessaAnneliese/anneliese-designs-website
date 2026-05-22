@@ -133,7 +133,7 @@ export default function Home() {
       <footer className="w-full py-12 px-6" style={{ backgroundColor: "#1a1a1a", color: "#ccc", fontFamily: "var(--font-lato)", fontWeight: 500 }}>
         <div className="max-w-2xl mx-auto text-center space-y-8">
 
-          <div className="flex flex-col sm:flex-row justify-center gap-10 text-sm">
+          <div className="flex flex-col sm:flex-row justify-center gap-10 text-sm text-left">
             <div>
               <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "14px", fontWeight: 700, color: "#fff" }}>Address</p>
               <p>23 Corridale Ave.</p>

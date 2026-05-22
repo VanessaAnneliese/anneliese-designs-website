@@ -12,7 +12,7 @@ export default function Home() {
           width={90}
           height={90}
         />
-        <p className="mt-3 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300, color: "#a61c1c" }}>
+        <p className="mt-3 tracking-[0.15em] uppercase" style={{ fontFamily: "var(--font-cormorant)", fontWeight: 300, fontSize: "22px", color: "#000" }}>
           Anneliese Designs
         </p>
       </header>
@@ -21,13 +21,13 @@ export default function Home() {
 
         {/* Hero */}
         <section className="py-12">
-          <h1 className="text-2xl leading-relaxed font-normal" style={{ fontFamily: "var(--font-cambo)", color: "#1a1a1a" }}>
+          <h1 className="text-2xl leading-relaxed" style={{ fontFamily: "var(--font-cambo)", fontWeight: 700, color: "#1a1a1a" }}>
             Welcome to Anneliese Designs,
           </h1>
-          <p className="mt-3 text-lg leading-relaxed" style={{ color: "#444" }}>
+          <p className="mt-3 text-lg leading-relaxed" style={{ fontFamily: "var(--font-cambo)", fontWeight: 700, color: "#444" }}>
             Where creativity is fun, full of heart, and always a little inspiring.
           </p>
-          <p className="mt-2 text-lg leading-relaxed" style={{ color: "#444" }}>
+          <p className="mt-2 text-lg leading-relaxed" style={{ fontFamily: "var(--font-cambo)", fontWeight: 700, color: "#444" }}>
             Where your visions are brought to life with warmth, color, and purpose!
           </p>
         </section>

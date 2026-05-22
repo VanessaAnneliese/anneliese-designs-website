@@ -106,7 +106,7 @@ export default function Home() {
         <IllustrationDivider src="/images/icon-5.png" alt="Joyful figure with color splash illustration" />
         <section className="py-10">
           <p className="text-base leading-relaxed" style={{ color: "#444" }}>
-            <strong>As my client,</strong> you&rsquo;ll get more than just tasks completed &mdash; you&rsquo;ll experience a
+            <strong>As my client,</strong>&nbsp;you&rsquo;ll get more than just tasks completed &mdash; you&rsquo;ll experience a
             seamless, creative partnership where clarity, strategy, and artistry come together.
           </p>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "#444" }}>
@@ -194,8 +194,8 @@ function IllustrationDivider({ src, alt }: { src: string; alt: string }) {
       <Image
         src={src}
         alt={alt}
-        width={260}
-        height={260}
+        width={325}
+        height={325}
         className="object-contain"
       />
     </div>

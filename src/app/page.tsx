@@ -1,9 +1,58 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Brand & Web Designer in Whitby, Durham Region, Ontario",
+  description: "Anneliese Designs is a creative branding and web design studio in Whitby, Ontario, serving Durham Region businesses with brand identity, graphic design, web design, and strategic writing.",
+  alternates: { canonical: "https://anneliesedesigns.com" },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Anneliese Designs",
+  description: "Creative branding and web design studio in Whitby, Ontario serving Durham Region businesses.",
+  url: "https://anneliesedesigns.com",
+  email: "contact@anneliesedesigns.com",
+  founder: "Vanessa Witkowski",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "23 Corridale Ave.",
+    addressLocality: "Whitby",
+    addressRegion: "ON",
+    postalCode: "L1M 2E8",
+    addressCountry: "CA",
+  },
+  areaServed: [
+    { "@type": "City", name: "Whitby" },
+    { "@type": "AdministrativeArea", name: "Durham Region" },
+    { "@type": "Province", name: "Ontario" },
+  ],
+  serviceType: [
+    "Brand Identity",
+    "Graphic Design",
+    "Web Design",
+    "Strategic Writing",
+    "Content Strategy",
+    "Information Architecture",
+    "Social Media Design",
+  ],
+  sameAs: [
+    "https://www.linkedin.com/in/vanessawitkowski/",
+    "https://www.facebook.com/anneliesedesigns",
+    "https://www.instagram.com/anneliesedesigns/",
+    "https://ca.pinterest.com/anneliesedesign/",
+  ],
+};
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
       {/* Header */}
       <header className="w-full pt-10 pb-6 flex flex-col items-center">

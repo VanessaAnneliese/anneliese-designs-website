@@ -188,7 +188,7 @@ export default function Home() {
             <a
               href="mailto:contact@anneliesedesigns.com"
               className="inline-block px-8 py-3 tracking-wide uppercase"
-              style={{ backgroundColor: "#a61c1c", color: "#fff", fontFamily: "var(--font-cambo)", fontWeight: 700, fontSize: "16px", borderRadius: "8px" }}
+              style={{ backgroundColor: "#666", color: "#fff", fontFamily: "var(--font-cambo)", fontWeight: 700, fontSize: "16px", borderRadius: "8px" }}
             >
               Let&rsquo;s Work Together
             </a>

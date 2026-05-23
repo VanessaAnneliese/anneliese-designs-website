@@ -104,7 +104,7 @@ export default function Home() {
           <p className="text-base leading-relaxed" style={{ color: "#444" }}>
             is as simple as a smile:
           </p>
-          <p className="mt-4 text-base leading-loose" style={{ color: "#444" }}>
+          <p className="mt-4 text-base leading-relaxed" style={{ color: "#444" }}>
             Be Kind, Be Grateful,<br />
             Love What You Do,<br />
             and Be True.

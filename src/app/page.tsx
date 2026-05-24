@@ -71,13 +71,9 @@ export default function Home() {
 
         {/* Hero */}
         <section className="py-12">
-          <h1 className="text-2xl leading-relaxed" style={{ fontFamily: "var(--font-cambo)", fontWeight: 700, color: "#1a1a1a" }}>
-            Welcome to Anneliese Designs,
-          </h1>
-          <p className="mt-3 text-lg leading-relaxed" style={{ fontFamily: "var(--font-cambo)", fontWeight: 700, color: "#444" }}>
-            Where creativity is fun, full of heart, and always a little inspiring.
-          </p>
-          <p className="mt-2 text-lg leading-relaxed" style={{ fontFamily: "var(--font-cambo)", fontWeight: 700, color: "#444" }}>
+          <p className="text-lg leading-relaxed" style={{ fontFamily: "var(--font-cambo)", fontWeight: 700, color: "#444" }}>
+            Welcome to Anneliese Designs,<br />
+            Where creativity is fun, full of heart, and always a little inspiring.<br />
             Where your visions are brought to life with warmth, color, and purpose!
           </p>
         </section>
@@ -102,9 +98,7 @@ export default function Home() {
             My philosophy
           </h2>
           <p className="text-base leading-relaxed" style={{ color: "#444" }}>
-            is as simple as a smile:
-          </p>
-          <p className="mt-4 text-base leading-relaxed" style={{ color: "#444" }}>
+            is as simple as a smile:<br />
             Be Kind, Be Grateful,<br />
             Love What You Do,<br />
             and Be True.

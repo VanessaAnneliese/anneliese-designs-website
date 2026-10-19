@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
         source: "/client-forms/kathy-terry",
         destination: "/client-forms/kathy-terry.html",
       },
+      {
+        source: "/client-forms/specialty-cutting-tools",
+        destination: "/client-forms/specialty-cutting-tools.html",
+      },
     ];
   },
 };

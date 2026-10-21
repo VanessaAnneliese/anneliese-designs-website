@@ -206,11 +206,6 @@ export default function Home() {
                   contact@anneliesedesigns.com
                 </a>
               </p>
-              <p className="mt-1">
-                <a href="tel:9054091770" className="hover:underline" style={{ color: "#ccc" }}>
-                  (905) 409-1770
-                </a>
-              </p>
             </div>
           </div>
 

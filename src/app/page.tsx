@@ -198,8 +198,8 @@ export default function Home() {
               <p>Canada</p>
             </div>
             <div>
-              <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "14px", fontWeight: 700, color: "#fff" }}>Availability</p>
-              <p>Currently accepting clients.</p>
+              <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "14px", fontWeight: 700, color: "#fff" }}>Portfolio</p>
+              <p>Available upon request.</p>
             </div>
             <div>
               <p className="uppercase tracking-widest mb-2" style={{ fontFamily: "var(--font-lato)", fontSize: "14px", fontWeight: 700, color: "#fff" }}>Contact</p>

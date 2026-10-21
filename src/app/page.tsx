@@ -142,7 +142,8 @@ export default function Home() {
             tricky to handle in-house, I step in to deliver thoughtful, high-quality creative
             work, without the overhead of a large agency. My goal is to make your life
             easier, your projects smoother, and your brand excel, all while keeping our
-            collaboration effortless and enjoyable. And because people now search in new
+            collaboration effortless and enjoyable.<br />
+            And because people now search in new
             ways, I also help your brand show up when they ask AI tools like ChatGPT who to trust.
           </p>
         </section>

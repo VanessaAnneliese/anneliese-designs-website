@@ -123,8 +123,8 @@ export default function Home() {
             My skills?
           </h2>
           <p className="text-base leading-relaxed" style={{ color: "#444" }}>
-            They&rsquo;re as diverse as a rainbow &mdash; think Brand Identity, Strategic Writing,
-            Brand and Content Strategy, Information Architecture, Graphic Design, Web
+            They&rsquo;re as diverse as a rainbow: think Brand Identity, Strategic Writing,
+            Brand and Content Strategy, Information Architecture, Graphic Design, AI Visibility, Web
             Design, and a whole bunch of other creative goodies, from ads to social media posts.
           </p>
         </section>
